@@ -1,5 +1,6 @@
 '''Paige Dyer'''
 
+# Dictionary to use in a future version
 '''dictrooms = {'Courtyard': {'go north': 'Barn'},
          'Barn': {'go north': 'Cave', 'go south': 'Courtyard', 'go east': 'Meadow', 'go west': 'Wardrobe'},
          'Wardrobe': {'go north': 'Burning Forest', 'go east': 'Barn'},
@@ -9,9 +10,6 @@
          'Pit': {'go west': 'Meadow', 'go south': 'Final'},
          'Final': 'None'
          }'''
-
-''' I made a dictionary here of the rooms because I know it is a requirement, but I had written so much of the code already with lists that if I incorporated 
-a dictionary it would require me to rewrite so much of the code. It would be in a more efficient way, but I just didn't have enough time to rewrite and debug all new code.'''
 
 import sys
 import random
